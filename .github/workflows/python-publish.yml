@@ -26,4 +26,4 @@ jobs:
         sudo pip3 install -r ./action/requirements.txt
     - name: Build and publish
       run: |
-        python ./action/app.py
+        python3 ./action/app.py
