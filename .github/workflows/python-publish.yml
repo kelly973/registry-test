@@ -21,9 +21,9 @@ jobs:
     - name: Install dependencies
       run: |
         sudo apt-get install python3
-        sudo apt-get install -y python3-pip
+        sudo apt-get install -y python3-pip3
         sudo pip3 install requests
-        sudo pip3 install confluent-kafka
+        
     - name: start app
       run: |
         python3 ./action/app.py
