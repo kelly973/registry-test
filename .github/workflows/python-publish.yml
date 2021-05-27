@@ -21,8 +21,8 @@ jobs:
         python-version: '3.*'
     - name: Install dependencies
       run: |
-        sudo apt-get install python3.7
+        sudo apt-get install python3
         sudo apt-get install -y python3-pip
-        sudo pip3 install -r ./action/requirements.txt
+        sudo pip3 install confluent_kafka
         python3 ./action/app.py
 
