@@ -20,12 +20,4 @@ jobs:
         python-version: '3.*'
     - name: Install dependencies
       run: |
-        sudo apt-get install python3
-        sudo apt-get install -y python3-pip
-        python3 -m pip install --upgrade pip
-        sudo pip3 install requests
-        
-    - name: start app
-      run: |
-        python3 ./action/app.py
-
+        curl -X GET http://0.0.0.0:8085/subjects
