@@ -20,12 +20,12 @@ jobs:
         python-version: '3.*'
     - name: Install dependencies
       run: |
-        sudo apt-get install python
-        python -m pip install --upgrade pip
-        sudo apt-get install -y python-pip
-        sudo pip install requests
+        sudo apt-get install python3
+        sudo apt-get install -y python3-pip
+        python3 -m pip3 install --upgrade pip3
+        sudo pip3 install requests
         
     - name: start app
       run: |
-        python ./action/app.py
+        python3 ./action/app.py
 
