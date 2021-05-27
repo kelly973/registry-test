@@ -23,7 +23,7 @@ jobs:
       run: |
         sudo apt-get install python3.7
         sudo apt-get install -y python3-pip
-        sudo pip3 install -r ./action/requirement.txt
+        sudo pip3 install -r ./action/requirements.txt
     - name: Build and publish
       run: |
         python ./action/app.py
