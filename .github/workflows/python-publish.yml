@@ -17,4 +17,4 @@ jobs:
     - uses: actions/checkout@v2
     - name: Install dependencies
       run: |
-        curl http://0.0.0.0:8080/config-dev
+        curl http://172.29.143.189:8080/config-dev
