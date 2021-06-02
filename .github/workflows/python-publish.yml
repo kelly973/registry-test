@@ -6,7 +6,7 @@ name: Register Schema
 on:
   push:
     branches: [ master ]
-    paths: './sample.proto'
+    paths: 'sample.proto'
 
 jobs:
   build:
