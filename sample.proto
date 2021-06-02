@@ -6,7 +6,7 @@ package com.kelly.proto;
 
 message Person{
 
-  string name = 1;
+  string name2 = 1;
 
   int32 age=2;
 
